@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace KevinPortfolio.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BootstrapBaseController
     {
         public ActionResult Index()
         {
