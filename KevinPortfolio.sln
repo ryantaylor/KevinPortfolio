@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevinPortfolio", "KevinPortfolio\KevinPortfolio.csproj", "{85A2DC26-D2E3-416B-8F32-B85463C19B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevinPortfolio.Tests", "KevinPortfolio.Tests\KevinPortfolio.Tests.csproj", "{3C58800E-809A-4B84-8C75-CD20F2D983BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85A2DC26-D2E3-416B-8F32-B85463C19B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A2DC26-D2E3-416B-8F32-B85463C19B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A2DC26-D2E3-416B-8F32-B85463C19B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A2DC26-D2E3-416B-8F32-B85463C19B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C58800E-809A-4B84-8C75-CD20F2D983BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C58800E-809A-4B84-8C75-CD20F2D983BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C58800E-809A-4B84-8C75-CD20F2D983BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C58800E-809A-4B84-8C75-CD20F2D983BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
