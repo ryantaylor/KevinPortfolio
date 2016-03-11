@@ -1,8 +1,0 @@
-[Bb]in
-[Oo]bj
-
-*.suo
-*.user
-
-packages/
-KevinPortfolio/App_Data
