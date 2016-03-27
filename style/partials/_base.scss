@@ -1,70 +1,123 @@
-// _base.scss
-
-@import "normalize";
 @import "../modules/all";
-
-$column-width: 810px;
-$viewport-width: 960px;
-
-/******************/
-/* Element styles */
-/******************/
-
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body,
 html {
   height: 100%;
 }
 
-body {
-  background: url(/img/bg.png) repeat scroll 0 0;
-  background-color: $clr-bg;
+a {
+  color: $material-accent;
+  outline: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: $material-accent;
+  }
 }
 
-/****************/
-/* Class styles */
-/****************/
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
 
-.no-js {
-  background-color: $clr-main;
-  color: $clr-neutral;
-  font-family: $font-family-alt;
-  font-size: 1.25em;
-  font-weight: bold;
-  height: 50px;
-  line-height: 50px;
-  left: 0;
-  overflow: hidden;
-  position: fixed;
+h2 {
+  font-size: 1.4em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+small {
+  color: $material-text-secondary;
+  display: block;
+  font-size: 0.6em;
+}
+
+sup {
+  color: red;
+  font-size: 0.5em;
+  line-height: 5px;
+}
+
+table {
+  margin-bottom: 0;
+}
+
+th {
+  box-sizing: border-box;
+}
+
+// p {
+//   font-family: $font-main;
+// }
+
+.accent {
+  color: $material-accent;
+}
+
+.center {
   text-align: center;
-  top: 0;
-  width: 100%;
-  z-index: 9999;
+}
+
+.heavy {
+  font-weight: 400;
+}
+
+.heavier {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.inline-block {
+  display: inline;
+}
+
+.left {
+  text-align: left;
+}
+
+.light {
+  color: $material-primary-light;
+}
+
+.name {
+  color: $material-text-primary;
+  font-family: $font-logo;
+  font-weight: 400;
+}
+
+.push {
+  height: 60px;
+}
+
+.right {
+  text-align: right;
+}
+
+.super {
+  color: $material-accent;
+  font-size: 0.5em;
+  font-weight: bold;
+  position: relative;
+  top: -0.95em;
 }
 
 .wrapper {
-  //background: $util-gradient-wrapper;
+  background: $material-primary-dark;
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin: 0 auto -60px;
-  width: $viewport-width;
+  //width: $viewport-width;
+  width: 100%;
 
-  @media (max-width: $viewport-width) {
-    background: $clr-bg-content;
-  }
+  // @media (max-width: $viewport-width) {
+  //   background: $clr-bg-content;
+  // }
 }
-
-/*****************/
-/* Media queries */
-/*****************/
-
-/* @media (max-width: $viewport-width) {
-  .wrapper {
-    background: $clr-bg-content;
-  }
-} */
