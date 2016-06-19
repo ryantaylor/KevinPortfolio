@@ -5,119 +5,15 @@ html {
   height: 100%;
 }
 
-a {
-  color: $material-accent;
-  outline: 0;
-  text-decoration: none;
-
-  &:hover {
-    color: $material-accent;
-  }
-}
-
-h1 {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.4em;
-  margin: 0;
-}
-
-h3 {
-  font-size: 1.3em;
-  margin: 0;
-}
-
-small {
-  color: $material-text-secondary;
-  display: block;
-  font-size: 0.6em;
-}
-
-sup {
-  color: red;
-  font-size: 0.5em;
-  line-height: 5px;
-}
-
-table {
-  margin-bottom: 0;
-}
-
-th {
-  box-sizing: border-box;
-}
-
-// p {
-//   font-family: $font-main;
-// }
-
-.accent {
-  color: $material-accent;
-}
-
-.center {
-  text-align: center;
-}
-
-.heavy {
-  font-weight: 400;
-}
-
-.heavier {
-  font-weight: bold;
-}
-
-.hidden {
-  display: none;
-}
-
-.inline-block {
-  display: inline;
-}
-
-.left {
-  text-align: left;
-}
-
-.light {
-  color: $material-primary-light;
-}
-
-.name {
-  color: $material-text-primary;
-  font-family: $font-logo;
-  font-weight: 400;
-}
-
 .push {
   height: 60px;
 }
 
-.right {
-  text-align: right;
-}
-
-.super {
-  color: $material-accent;
-  font-size: 0.5em;
-  font-weight: bold;
-  position: relative;
-  top: -0.95em;
-}
-
 .wrapper {
-  background: $material-primary-dark;
+  //background: $material-primary-dark;
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin: 0 auto -60px;
-  //width: $viewport-width;
   width: 100%;
-
-  // @media (max-width: $viewport-width) {
-  //   background: $clr-bg-content;
-  // }
 }

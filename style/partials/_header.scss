@@ -1,81 +1,16 @@
-header {
-  height: 250px;
-  left: 0;
-  min-width: $viewport-width;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
 nav {
-  height: 50px;
-  min-width: $viewport-width;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-
-  ul {
-    float: left;
-    padding-left: 130px;
-    width: 100%;
-
-    li {
-      color: $clr-neutral;
-      display: inline;
-      margin-left: -5px;
-
-      a {
-        color: $clr-neutral;
-        display: inline-block;
-        font-family: $font-family-alt;
-        height: 50px;
-        line-height: 50px;
-        text-align: center;
-        text-decoration: none;
-        transition: background-color 0.5s ease 0s;
-        width: 120px;
-      }
-
-      a:hover {
-        background-color: $clr-main;
-      }
-    }
-
-    li:nth-child(1) {
-      a {
-        border-left: 2px solid $clr-accent;
-      }
-    }
-
-    li:nth-child(2) {
-      a {
-        border-left: 2px solid $clr-accent;
-        border-right: 2px solid $clr-accent;
-      }
-    }
-
-    li:nth-child(3) {
-      padding-left: 215px;
-
-      a {
-        border-left: 2px solid $clr-accent;
-        border-right: 2px solid $clr-accent;
-      }
-    }
-
-    li:nth-child(4) {
-      a {
-        border-right: 2px solid $clr-accent;
-      }
-    }
-  }
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-.topbar {
-  background: $clr-bg-bar;
-  border-bottom: 2px solid $clr-accent;
-  height: 150px;
-  min-width: $viewport-width;
-  width: 100%;
+.navbar {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
+    padding-left: 25px;
+  }
 }
